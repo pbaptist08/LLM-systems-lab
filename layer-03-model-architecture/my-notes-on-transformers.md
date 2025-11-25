@@ -2,7 +2,7 @@
 
 ## Here is my understanding of Transformers in 10 steps
 
-![Transformers Step 1 - 5](layer-03-model-architecture/Images/IMG_0027.jpeg)
+![Transformers Step 1 - 5](LLM-systems-stack/layer-03-model-architecture/Images/IMG_0027.jpeg)
 
 ![Transformers Step 6 - 8](layer-03-model-architecture/Images/IMG_0029.jpeg)
 
