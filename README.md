@@ -4,15 +4,13 @@ This document describes a **5-layer mental model** for modern LLM systems and a 
 
 The five layers are:
 
-| # | Layer Name           | What it covers                                                                                      | Sub-layers (from original 11-layer view)                              |
+| # | Layer Name           | What it covers                                                                                      | Sub-layers                                                                                  |
 |---|----------------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | 1 | **Infra**            | Physical and cloud infrastructure needed to train and run LLMs                                      | Hardware & Infra (1)                                                  |
 | 2 | **Models**           | How LLMs are built and aligned before being used in products                                        | Data & Pretraining (2), Transformer Architecture (3), Training & Alignment (4) |
 | 3 | **Data & Knowledge** | How models are adapted to a product and connected to data (prompts, RAG, tools, APIs, DBs)          | Adaptation via Prompts & Fine-tuning (5), Knowledge & Tools / RAG (6) |
 | 4 | **Orchestration**    | How all components run together in production, including workflows, agents, evals, and safety       | Workflows/Chains (7), Single & Multi-Agent Systems (8, 9), Evals & Safety & Governance (10) |
 | 5 | **App / Product**    | The actual product: UX, JTBD, interaction patterns, pricing, adoption, and feedback loops           | Product Layer – UX & Business (11)                                    |
-
-The original “11 layers” are folded into these five, but the intent and detail are preserved.
 
 ---
 
